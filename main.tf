@@ -2,6 +2,7 @@ provider "aws" {
 region = "ap-soouth-1"
 }
 
+
 resource "aws_instance" "three" {
   count         = 1
   ami           = "ami-0d176f79571d18a8f"
